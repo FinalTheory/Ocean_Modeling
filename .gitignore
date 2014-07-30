@@ -213,3 +213,13 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+
+# CodeBlocks Files
+
+*.asv
+*.txt
+*.cbp
+*.depend
+*\bin\
+*\obj\

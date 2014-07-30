@@ -25,6 +25,7 @@ h2 = plot(x, explicit, 'r:^'); hold on;
 h3 = plot(x, implicit, 'g-.^'); hold on;
 
 % 设置横、纵坐标标注以及标题
+% 注意如何指定标注的字体大小
 xlabel('时间 (小时)', 'fontsize', 12);
 ylabel('浓度 (百分比)', 'fontsize', 12);
 title('浓度随时间变化的关系曲线', 'fontsize', 15)
